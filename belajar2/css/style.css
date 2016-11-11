@@ -1,0 +1,132 @@
+body, * {
+	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
+	font-size: 12px;
+}
+
+a {
+	cursor: pointer;
+}
+a:hover {
+	cursor: pointer;
+	color:#FFF;
+}
+img {
+	border: 0;
+}
+
+#wrapper {
+	height: 320px;
+	float: left;
+}
+#lirikText {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(../images/lirik.jpg);
+	color: #000;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+#lirikText:hover {
+	border: 1px none #0CF;
+	cursor: text;
+	color: #F00;
+}
+
+#controls {
+	padding: 6px;
+	float: right;
+}
+#images {
+	background-image: url(../images/body.png);
+	height: 30px;
+}
+
+
+#controls2 {
+	padding: 6px;
+	color: #009;
+}
+
+#playlist {
+	height: 330px;
+	overflow: auto;
+	float: left;
+	width: 504px;
+	clear: both;
+	background-image: url(../images/body.png);
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-bottom: 50px;
+	background-repeat: repeat-y;
+}
+
+#playlist table {
+	width: 96%;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	overflow: auto;
+	border-top-color: #0CF;
+	border-right-color: #0CF;
+	border-bottom-color: #0CF;
+	border-left-color: #0CF;
+}
+#playlist tr:hover {
+	width: 95%;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #0CF;
+	border-top-color: #0CC;
+	border-right-color: #0CC;
+	border-bottom-color: #0CC;
+	border-left-color: #0CC;
+}
+
+#playerwrapper {
+	margin-right: 0px;
+	color: #FFF;
+	float: left;
+	width: 500px;
+	clear: none;
+}
+#lirik {
+	width: 502px;
+	height: 100px;
+	float: left;
+	overflow: hidden;
+	background-color: #FFF;
+
+}
+
+
+.playlist_active {
+	background: #E1E5E8;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#wrapper #database {
+	clear: both;
+	float: left;
+}
+#table:hover {
+	background-color: #06C;
+}
+#gambar {
+	height: 80px;
+	width: 100px;
+	border: 1px solid #FFF;
+	color: #FFF;
+	float: right;
+}

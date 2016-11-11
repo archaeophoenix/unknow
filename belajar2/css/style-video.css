@@ -1,0 +1,14 @@
+#player {
+	height: 40px;
+	width: 488px;
+	clear: both;
+	background-image: url(../images/body.png);
+}
+
+#playerwrapper {
+	width: 502px;
+	border: 1px solid #FFF;
+	float: left;
+	background-image: url(../images/body.png);
+	background-repeat: no-repeat;
+}

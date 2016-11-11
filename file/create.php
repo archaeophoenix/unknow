@@ -1,0 +1,3 @@
+<?php $my_file = 'file.txt';
+$handle = fopen($my_file, 'w') or die('Cannot open file:  '.$my_file);
+chmod($my_file, 0777);?>
